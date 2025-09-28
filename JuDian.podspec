@@ -14,9 +14,8 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios, "12.0"
   spec.swift_version = "5.0"
-
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.static_framework = true
+  spec.vendored_frameworks = "JuDianOpenApi.xcframework"
 
  
 
