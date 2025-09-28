@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/hezhuangjs/JuDian.git", :tag => "#{spec.version}" }
 
-  spec.platform     = :ios, "11.0"
+  spec.platform     = :ios, "12.0"
   spec.swift_version = "5.0"
 
   spec.source_files  = "Classes", "Classes/**/*.{h,m}"
