@@ -4,7 +4,9 @@ Pod::Spec.new do |spec|
   spec.name         = "JuDian"
   spec.version      = "1.0.0"
   spec.summary      = "A short description of AnyThink SDK for iOS."
-  spec.description  = "JuDian is a library for xxx, which provides yyy functionality."
+  spec.description  = <<-DESC
+                    A longer description of MySDK in Markdown format.
+                   DESC
   spec.homepage     = "https://github.com/hezhuangjs/JuDian"
   spec.license      = { :type => "MIT", :file => "JuDian/LICENSE" }
   spec.author             = { "hezhuangjs" => "hezhuangjs@dangdang.com" }
