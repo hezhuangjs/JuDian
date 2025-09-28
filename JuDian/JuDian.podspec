@@ -11,8 +11,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "JuDian/LICENSE" }
   spec.author             = { "hezhuangjs" => "hezhuangjs@dangdang.com" }
   spec.source       = { :git => "https://github.com/hezhuangjs/JuDian.git", :tag => "#{spec.version}" }
-  spec.platform     = :ios, "12.0"
-  spec.swift_version = "5.0"
+  spec.platform     = :ios, "11.0"
   spec.static_framework = true
   spec.vendored_frameworks = "JuDianOpenApi.xcframework"
 end
