@@ -14,4 +14,6 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "11.0"
   spec.static_framework = true
   spec.vendored_frameworks = "JuDianOpenApi.xcframework"
+  spec.frameworks = "Foundation", "UIKit", "Security", "CoreTelephony"
+
 end
