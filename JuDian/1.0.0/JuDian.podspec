@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.static_framework = true
 
   # 引入 xcframework
-  s.vendored_frameworks = "JuDianOpenApi.framework"
+  s.vendored_frameworks = "JuDianOpenApi.xcframework"
 
   # 添加 SDK 依赖的系统库
   s.frameworks = "Foundation", "UIKit", "Security", "CoreTelephony"
