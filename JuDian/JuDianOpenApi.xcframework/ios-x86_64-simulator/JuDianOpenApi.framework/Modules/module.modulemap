@@ -1,6 +1,0 @@
-framework module JuDianOpenApi {
-  umbrella header "JuDianOpenApi.h"
-  export *
-
-  module * { export * }
-}
